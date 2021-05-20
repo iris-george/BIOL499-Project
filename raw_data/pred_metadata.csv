@@ -1,0 +1,260 @@
+session,pred_survey_num,date_site,pred_date,pred_date_2,pred_study_period,pred_surveyor,site,pred_proportion_surveyed,region,sub_region,location,pred_habitat,pred_time_start,pred_time_end,pred_total_time_min,pred_depth_ft,pred_temp_F,pred_vis_ft,pred_current,pred_trans_area,pred_site_area_m2
+141,2277,2014-09-16_BISC-P12a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-P12a,0.33,Florida,BNP,Biscayne,patch,14:47,,,20,86,15,none,377,530
+141,2278,2014-09-16_BISC-P12a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-P12a,0.33,Florida,BNP,Biscayne,patch,,,,20,86,15,none,377,530
+141,2279,2014-09-16_BISC-P12a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-P12a,0.33,Florida,BNP,Biscayne,patch,,15:13,,20,86,15,none,377,530
+142,2274,2014-09-16_BISC-P13a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-P13a,0.33,Florida,BNP,Biscayne,patch,13:00,,,16,86,15,none,1092,1194
+142,2275,2014-09-16_BISC-P13a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-P13a,0.33,Florida,BNP,Biscayne,patch,,,,16,86,15,none,1092,1194
+142,2276,2014-09-16_BISC-P13a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-P13a,0.33,Florida,BNP,Biscayne,patch,,0:00,,16,86,15,none,1092,1194
+143,2272,2014-09-16_BISC-W30a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-W30a,0.5,Florida,BNP,Biscayne,continuous,11:42,11:59,17,29,86,75,none,1000,2000
+143,2273,2014-09-16_BISC-W30a,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-W30a,0.5,Florida,BNP,Biscayne,continuous,12:01,12:22,21,29,86,75,none,1000,2000
+144,2270,2014-09-16_BISC-W40-b,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-W40-b,0.5,Florida,BNP,Biscayne,continuous,10:16,10:42,26,53,86,60,moderate,1000,2000
+144,2271,2014-09-16_BISC-W40-b,2014-09-16,Fall 2014,12,Carlos and Gracie,BISC-W40-b,0.5,Florida,BNP,Biscayne,continuous,10:42,10:55,13,45,86,60,moderate,1000,2000
+145,2287,2014-09-17_BISC-P11a,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-P11a,0.33,Florida,BNP,Biscayne,patch,15:57,,,17,84,20,none,714,908
+145,2288,2014-09-17_BISC-P11a,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-P11a,0.33,Florida,BNP,Biscayne,patch,,,,17,84,20,none,714,908
+145,2289,2014-09-17_BISC-P11a,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-P11a,0.33,Florida,BNP,Biscayne,patch,,,,17,84,20,none,714,908
+146,2284,2014-09-17_BISC-P15a,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-P15a,0.33,Florida,BNP,Biscayne,patch,14:08,14:44,36,20,84,40,none,3080,3847
+146,2285,2014-09-17_BISC-P15a,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-P15a,0.33,Florida,BNP,Biscayne,patch,15:05,,,20,84,40,none,3080,3847
+146,2286,2014-09-17_BISC-P15a,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-P15a,0.33,Florida,BNP,Biscayne,patch,,15:21,,20,84,40,none,3080,3847
+147,2280,2014-09-17_BISC-W12,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-W12,0.5,Florida,BNP,Biscayne,continuous,10:24,10:34,10,60,84,70,moderate,1000,2000
+147,2281,2014-09-17_BISC-W12,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-W12,0.5,Florida,BNP,Biscayne,continuous,10:41,10:55,11,55,84,70,moderate,1000,2000
+148,2282,2014-09-17_BISC-W13,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-W13,0.5,Florida,BNP,Biscayne,continuous,12:29,13:00,31,60,82,50,moderate,1000,2000
+148,2283,2014-09-17_BISC-W13,2014-09-17,Fall 2014,12,Carlos and Alyssa,BISC-W13,0.5,Florida,BNP,Biscayne,continuous,13:01,13:01,12,50,82,50,moderate,1000,2000
+149,2294,2014-09-18_BISC-P7a,2014-09-18,Fall 2014,12,"Liz, Ashtyn, and Alex",BISC-P7a,0.33,Florida,BNP,Biscayne,patch,13:52,14:18,26,10,80,15,none,840,962
+149,2295,2014-09-18_BISC-P7a,2014-09-18,Fall 2014,12,"Liz, Ashtyn, and Alex",BISC-P7a,0.33,Florida,BNP,Biscayne,patch,14:18,14:34,16,10,80,15,none,840,962
+149,2296,2014-09-18_BISC-P7a,2014-09-18,Fall 2014,12,"Liz, Ashtyn, and Alex",BISC-P7a,0.33,Florida,BNP,Biscayne,patch,14:34,15:07,33,10,80,15,none,840,962
+150,2298,2014-09-18_BISC-P9a,2014-09-18,Fall 2014,12,"Liz, Ashtyn, and Alex",BISC-P9a,0.33,Florida,BNP,Biscayne,patch,15:35,,,24,82,12,none,903,1384
+150,2299,2014-09-18_BISC-P9a,2014-09-18,Fall 2014,12,"Liz, Ashtyn, and Alex",BISC-P9a,0.33,Florida,BNP,Biscayne,patch,,,,24,82,12,none,903,1384
+150,2300,2014-09-18_BISC-P9a,2014-09-18,Fall 2014,12,"Liz, Ashtyn, and Alex",BISC-P9a,0.33,Florida,BNP,Biscayne,patch,,16:11,,24,82,12,none,903,1384
+151,2292,2014-09-18_BISC-W60-2b,2014-09-18,Fall 2014,12,Liz and Ashtyn,BISC-W60-2b,0.5,Florida,BNP,Biscayne,continuous,12:18,12:37,19,70,81,30,moderate,1000,2000
+151,2293,2014-09-18_BISC-W60-2b,2014-09-18,Fall 2014,12,Liz and Ashtyn,BISC-W60-2b,0.5,Florida,BNP,Biscayne,continuous,12:38,12:56,18,55,81,30,moderate,1000,2000
+152,2290,2014-09-18_BISC-W60-6d,2014-09-18,Fall 2014,12,Liz and Ashtyn,BISC-W60-6d,0.5,Florida,BNP,Biscayne,continuous,10:12,10:29,17,60,82,40,none,1000,2000
+152,2291,2014-09-18_BISC-W60-6d,2014-09-18,Fall 2014,12,Liz and Ashtyn,BISC-W60-6d,0.5,Florida,BNP,Biscayne,continuous,10:30,10:49,19,52,82,40,none,1000,2000
+153,2305,2014-09-19_BISC-P10a,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-P10a,0.33,Florida,BNP,Biscayne,patch,15:54,,,26,83,30,none,816,908
+153,2306,2014-09-19_BISC-P10a,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-P10a,0.33,Florida,BNP,Biscayne,patch,,,,26,83,30,none,816,908
+153,2307,2014-09-19_BISC-P10a,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-P10a,0.33,Florida,BNP,Biscayne,patch,,16:32,,26,83,30,none,816,908
+154,2759,2014-09-19_BISC-P14a,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-P14a,0.33,Florida,BNP,Biscayne,patch,14:22,,,12,83,20,none,980,962
+154,2760,2014-09-19_BISC-P14a,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-P14a,0.33,Florida,BNP,Biscayne,patch,,,,12,83,20,none,980,962
+154,2761,2014-09-19_BISC-P14a,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-P14a,0.33,Florida,BNP,Biscayne,patch,,15:00,,12,83,20,none,980,962
+155,2301,2014-09-19_BISC-W60-11c,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-W60-11c,0.5,Florida,BNP,Biscayne,continuous,10:30,10:54,24,52,83,50,moderate,1000,2000
+155,2302,2014-09-19_BISC-W60-11c,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-W60-11c,0.5,Florida,BNP,Biscayne,continuous,10:56,11:18,22,48,86,50,moderate,1000,2000
+156,2303,2014-09-19_BISC-W60-4b,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-W60-4b,0.5,Florida,BNP,Biscayne,continuous,12:44,13:07,23,52,83,60,none,1000,2000
+156,2304,2014-09-19_BISC-W60-4b,2014-09-19,Fall 2014,12,Gracie and Alex,BISC-W60-4b,0.5,Florida,BNP,Biscayne,continuous,13:09,13:26,17,54,83,60,none,1000,2000
+157,2308,2014-09-22_Dixie Ledge,2014-09-22,Fall 2014,12,Alyssa and Anna,Dixie Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:31,9:47,16,57,86,60,moderate,1000,2000
+157,2309,2014-09-22_Dixie Ledge,2014-09-22,Fall 2014,12,Alyssa and Anna,Dixie Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:49,10:05,16,45,86,60,moderate,1000,2000
+158,2318,2014-09-22_KL-P6,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,15:10,15:14,4,20,86,18,none,133,153
+158,2319,2014-09-22_KL-P6,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,15:14,15:19,5,20,86,18,none,133,153
+158,2320,2014-09-22_KL-P6,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,15:20,15:25,5,20,86,18,none,133,153
+159,2315,2014-09-22_KL-P7,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,14:16,14:22,6,15,86,15,moderate,535.5,346
+159,2316,2014-09-22_KL-P7,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,14:23,14:28,5,15,86,15,moderate,535.5,346
+159,2317,2014-09-22_KL-P7,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,14:28,14:38,10,15,86,15,moderate,535.5,346
+160,2312,2014-09-22_KL-P8,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,13:13,13:23,10,11,86,30,moderate,1330,1134
+160,2313,2014-09-22_KL-P8,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,13:23,13:33,10,11,86,30,moderate,1330,1134
+160,2314,2014-09-22_KL-P8,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,13:37,13:46,9,11,86,35,moderate,1330,1134
+161,2310,2014-09-22_KL-W7,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-W7,0.5,Florida,FKNMS,Key Largo,continuous,11:35,11:55,20,54,82,60,moderate,1000,2000
+161,2311,2014-09-22_KL-W7,2014-09-22,Fall 2014,12,Alyssa and Anna,KL-W7,0.5,Florida,FKNMS,Key Largo,continuous,11:57,12:14,17,50,82,60,moderate,1000,2000
+162,2325,2014-09-24_DANGER 88,2014-09-24,Fall 2014,12,Alyssa and Anna,DANGER 88,0.33,Florida,FKNMS,Key Largo,patch,13:31,,,8,81,4,none,94.5,64
+162,2326,2014-09-24_DANGER 88,2014-09-24,Fall 2014,12,Alyssa and Anna,DANGER 88,0.33,Florida,FKNMS,Key Largo,patch,,13:36,,8,81,4,none,94.5,64
+162,2327,2014-09-24_DANGER 88,2014-09-24,Fall 2014,12,Alyssa and Anna,DANGER 88,0.33,Florida,FKNMS,Key Largo,patch,13:36,13:41,5,8,81,4,none,94.5,64
+163,2328,2014-09-24_KL-30,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-30,0.33,Florida,FKNMS,Key Largo,patch,14:35,14:50,15,10,81,12,none,1040,803
+163,2329,2014-09-24_KL-30,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-30,0.33,Florida,FKNMS,Key Largo,patch,14:51,15:15,24,13,81,12,none,1040,803
+163,2330,2014-09-24_KL-30,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-30,0.33,Florida,FKNMS,Key Largo,patch,15:15,15:28,13,14,81,12,none,1040,803
+164,2331,2014-09-24_KL-P4,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,16:11,16:16,5,15,81,12,none,192,201
+164,2332,2014-09-24_KL-P4,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,16:16,16:19,3,15,81,12,none,192,201
+164,2333,2014-09-24_KL-P4,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,16:20,16:23,3,15,81,12,none,192,201
+165,2321,2014-09-24_KL-W2,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-W2,0.5,Florida,FKNMS,Key Largo,continuous,9:46,10:03,17,70,80,60,heavy,1000,2000
+165,2322,2014-09-24_KL-W2,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-W2,0.5,Florida,FKNMS,Key Largo,continuous,10:04,10:20,16,45,80,60,heavy,1000,2000
+166,2323,2014-09-24_KL-W8,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-W8,0.5,Florida,FKNMS,Key Largo,continuous,11:53,12:12,19,60,86,65,none,1000,2000
+166,2324,2014-09-24_KL-W8,2014-09-24,Fall 2014,12,Alyssa and Anna,KL-W8,0.5,Florida,FKNMS,Key Largo,continuous,12:14,12:31,17,55,86,65,moderate,1000,2000
+168,2344,2014-09-25_KL-P11,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P11,0.33,Florida,FKNMS,Key Largo,patch,16:15,16:27,12,10,84,15,none,399,284
+168,2345,2014-09-25_KL-P11,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P11,0.33,Florida,FKNMS,Key Largo,patch,16:27,16:33,6,10,84,15,none,399,284
+168,2346,2014-09-25_KL-P11,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P11,0.33,Florida,FKNMS,Key Largo,patch,16:34,17:02,28,10,84,15,none,399,284
+169,2341,2014-09-25_KL-P13,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P13,0.33,Florida,FKNMS,Key Largo,patch,14:55,,,10,84,20,moderate,627,380
+169,2342,2014-09-25_KL-P13,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P13,0.33,Florida,FKNMS,Key Largo,patch,,15:18,,10,84,20,moderate,627,380
+169,2343,2014-09-25_KL-P13,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P13,0.33,Florida,FKNMS,Key Largo,patch,15:20,15:32,12,10,84,20,moderate,627,380
+170,2338,2014-09-25_KL-P14,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P14,0.33,Florida,FKNMS,Key Largo,patch,13:45,,,10,83,15,moderate,272,201
+170,2339,2014-09-25_KL-P14,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P14,0.33,Florida,FKNMS,Key Largo,patch,,13:57,,10,83,15,moderate,272,201
+170,2340,2014-09-25_KL-P14,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-P14,0.33,Florida,FKNMS,Key Largo,patch,13:58,14:06,8,10,84,15,moderate,272,201
+171,2336,2014-09-25_KL-W11,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-W11,0.5,Florida,FKNMS,Key Largo,continuous,12:00,12:14,14,40,82,60,none,1000,2000
+171,2337,2014-09-25_KL-W11,2014-09-25,Fall 2014,12,Carlos and Alyssa,KL-W11,0.5,Florida,FKNMS,Key Largo,continuous,12:16,12:32,16,40,82,60,none,1000,2000
+172,2349,2014-09-26_KL-W12,2014-09-26,Fall 2014,12,Allison and Ashtyn,KL-W12,0.5,Florida,FKNMS,Key Largo,continuous,11:35,11:59,14,60,84,60,none,1000,2000
+172,2350,2014-09-26_KL-W12,2014-09-26,Fall 2014,12,Allison and Ashtyn,KL-W12,0.5,Florida,FKNMS,Key Largo,continuous,11:59,12:08,9,50,84,60,none,1000,2000
+173,2347,2014-09-26_KL-W13,2014-09-26,Fall 2014,12,Carlos and Ashtyn,KL-W13,0.5,Florida,FKNMS,Key Largo,continuous,9:54,10:11,17,50,84,60,moderate,1000,2000
+173,2348,2014-09-26_KL-W13,2014-09-26,Fall 2014,12,Carlos and Ashtyn,KL-W13,0.5,Florida,FKNMS,Key Largo,continuous,10:18,10:31,13,50,84,60,moderate,1000,2000
+174,2357,2014-09-28_FKSP1,2014-09-28,Fall 2014,12,Amy and Anna,FKSP1,0.33,Florida,FKNMS,Matecumbe Key,patch,16:45,16:51,6,15,83,10,none,216,255
+174,2358,2014-09-28_FKSP1,2014-09-28,Fall 2014,12,Amy and Anna,FKSP1,0.33,Florida,FKNMS,Matecumbe Key,patch,16:51,16:56,5,15,83,10,none,216,255
+174,2359,2014-09-28_FKSP1,2014-09-28,Fall 2014,12,Amy and Anna,FKSP1,0.33,Florida,FKNMS,Matecumbe Key,patch,16:58,17:02,4,15,83,10,none,216,255
+175,2355,2014-09-28_Ten 2A,2014-09-28,Fall 2014,12,Amy and Anna,Ten 2A,0.5,Florida,FKNMS,Tennessee Reef,continuous,14:47,15:11,24,33,84,60,none,1000,2000
+175,2356,2014-09-28_Ten 2A,2014-09-28,Fall 2014,12,Amy and Anna,Ten 2A,0.5,Florida,FKNMS,Tennessee Reef,continuous,15:13,15:56,43,31,86,60,moderate,1000,2000
+176,2353,2014-09-28_Ten 3A,2014-09-28,Fall 2014,12,Amy and Anna,Ten 3A,0.5,Florida,FKNMS,Tennessee Reef,continuous,12:51,13:21,30,35,86,50,moderate,1000,2000
+176,2354,2014-09-28_Ten 3A,2014-09-28,Fall 2014,12,Amy and Anna,Ten 3A,0.5,Florida,FKNMS,Tennessee Reef,continuous,13:21,13:54,33,32,84,60,moderate,1000,2000
+177,2351,2014-09-28_Ten 5A,2014-09-28,Fall 2014,12,Amy and Anna,Ten 5A,0.5,Florida,FKNMS,Tennessee Reef,continuous,11:00,11:17,17,32,86,60,none,1000,2000
+177,2352,2014-09-28_Ten 5A,2014-09-28,Fall 2014,12,Amy and Anna,Ten 5A,0.5,Florida,FKNMS,Tennessee Reef,continuous,11:18,11:36,18,32,86,60,none,1000,2000
+178,2360,2014-09-29_Conch 3A,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,Conch 3A,0.5,Florida,FKNMS,Conch Reef,continuous,10:05,10:19,14,41,84,70,none,1000,2000
+178,2361,2014-09-29_Conch 3A,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,Conch 3A,0.5,Florida,FKNMS,Conch Reef,continuous,10:20,10:35,15,41,84,70,none,1000,2000
+179,2362,2014-09-29_Conch 4B,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,Conch 4B,0.5,Florida,FKNMS,Conch Reef,continuous,12:01,12:19,18,40,86,60,moderate,1000,2000
+179,2363,2014-09-29_Conch 4B,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,Conch 4B,0.5,Florida,FKNMS,Conch Reef,continuous,12:20,12:34,14,42,86,60,moderate,1000,2000
+180,2364,2014-09-29_Conch 6A,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,Conch 6A,0.5,Florida,FKNMS,Conch Reef,continuous,13:44,14:01,17,45,86,60,moderate,1000,2000
+180,2365,2014-09-29_Conch 6A,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,Conch 6A,0.5,Florida,FKNMS,Conch Reef,continuous,14:02,14:13,11,43,86,60,moderate,1000,2000
+182,2366,2014-09-29_KL-P2,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,15:26,15:30,4,15,86,15,moderate,85.5,66
+182,2367,2014-09-29_KL-P2,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,15:30,15:36,6,15,86,15,moderate,85.5,66
+182,2368,2014-09-29_KL-P2,2014-09-29,Fall 2014,12,Alyssa and Ashtyn,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,15:36,15:41,5,15,86,15,moderate,85.5,66
+185,2578,2015-03-16_BISC-P12a,2015-03-16,Spring 2015,15,Allison and Carlos,BISC-P12a,0.33,Florida,BNP,Biscayne,patch,15:52,16:00,8,19,76,20,none,377,530
+185,2579,2015-03-16_BISC-P12a,2015-03-16,Spring 2015,15,Allison and Carlos,BISC-P12a,0.33,Florida,BNP,Biscayne,patch,16:00,16:08,8,19,76,20,none,377,530
+185,2580,2015-03-16_BISC-P12a,2015-03-16,Spring 2015,15,Allison and Carlos,BISC-P12a,0.33,Florida,BNP,Biscayne,patch,16:08,16:18,10,19,76,20,none,377,530
+186,2575,2015-03-16_BISC-P13a,2015-03-16,Spring 2015,15,Ed and Carlos,BISC-P13a,0.33,Florida,BNP,Biscayne,patch,14:20,,,20,75,30,none,1092,1194
+186,2576,2015-03-16_BISC-P13a,2015-03-16,Spring 2015,15,Ed and Carlos,BISC-P13a,0.33,Florida,BNP,Biscayne,patch,,,,20,75,30,none,1092,1194
+186,2577,2015-03-16_BISC-P13a,2015-03-16,Spring 2015,15,Ed and Carlos,BISC-P13a,0.33,Florida,BNP,Biscayne,patch,,15:00,,20,75,30,none,1092,1194
+187,2571,2015-03-16_BISC-W13,2015-03-16,Spring 2015,15,Allison and Carlos,BISC-W13,0.5,Florida,BNP,Biscayne,continuous,10:50,11:27,37,62,75,40,moderate,1000,2000
+187,2572,2015-03-16_BISC-W13,2015-03-16,Spring 2015,15,Allison and Carlos,BISC-W13,0.5,Florida,BNP,Biscayne,continuous,,,,59,75,40,moderate,1000,2000
+188,2573,2015-03-16_BISC-W60-4b,2015-03-16,Spring 2015,15,Allison and Ed,BISC-W60-4b,0.5,Florida,BNP,Biscayne,continuous,12:56,13:18,22,50,73,50,moderate,1000,2000
+188,2574,2015-03-16_BISC-W60-4b,2015-03-16,Spring 2015,15,Allison and Ed,BISC-W60-4b,0.5,Florida,BNP,Biscayne,continuous,13:20,13:33,13,61,73,50,moderate,1000,2000
+189,2583,2015-03-17_KL-W2,2015-03-17,Spring 2015,15,BZ and Kristen,KL-W2,0.5,Florida,FKNMS,Key Largo,continuous,15:02,15:21,19,60,75,50,none,1000,2000
+189,2584,2015-03-17_KL-W2,2015-03-17,Spring 2015,15,BZ and Kristen,KL-W2,0.5,Florida,FKNMS,Key Largo,continuous,15:23,15:40,17,41,75,50,none,1000,2000
+190,2581,2015-03-17_KL-W7,2015-03-17,Spring 2015,15,BZ and Kristen,KL-W7,0.5,Florida,FKNMS,Key Largo,continuous,12:58,13:21,23,58,75,70,none,1000,2000
+190,2582,2015-03-17_KL-W7,2015-03-17,Spring 2015,15,BZ and Kristen,KL-W7,0.5,Florida,FKNMS,Key Largo,continuous,13:21,13:39,18,58,75,70,none,1000,2000
+191,2592,2015-03-18_BISC-P14a,2015-03-18,Spring 2015,15,Amy and BZ,BISC-P14a,0.33,Florida,BNP,Biscayne,patch,15:23,15:32,9,12,75,20,none,980,962
+191,2593,2015-03-18_BISC-P14a,2015-03-18,Spring 2015,15,Amy and BZ,BISC-P14a,0.33,Florida,BNP,Biscayne,patch,15:32,15:41,9,12,75,20,none,980,962
+191,2594,2015-03-18_BISC-P14a,2015-03-18,Spring 2015,15,Amy and BZ,BISC-P14a,0.33,Florida,BNP,Biscayne,patch,15:41,15:48,7,12,75,20,none,980,962
+192,2589,2015-03-18_BISC-P15a,2015-03-18,Spring 2015,15,Amy and BZ,BISC-P15a,0.33,Florida,BNP,Biscayne,patch,13:20,13:51,31,7,77,26,moderate,3080,3847
+192,2590,2015-03-18_BISC-P15a,2015-03-18,Spring 2015,15,Amy and BZ,BISC-P15a,0.33,Florida,BNP,Biscayne,patch,13:51,14:23,32,7,77,26,moderate,3080,3847
+192,2591,2015-03-18_BISC-P15a,2015-03-18,Spring 2015,15,Amy and BZ,BISC-P15a,0.33,Florida,BNP,Biscayne,patch,14:25,14:48,23,7,77,26,moderate,3080,3847
+193,2585,2015-03-18_BISC-W12,2015-03-18,Spring 2015,15,Amy and BZ,BISC-W12,0.5,Florida,BNP,Biscayne,continuous,9:50,10:10,20,65,75,100,moderate,1000,2000
+193,2586,2015-03-18_BISC-W12,2015-03-18,Spring 2015,15,Amy and BZ,BISC-W12,0.5,Florida,BNP,Biscayne,continuous,10:12,10:37,25,59,75,100,moderate,1000,2000
+194,2587,2015-03-18_BISC-W60-11c,2015-03-18,Spring 2015,15,Amy and BZ,BISC-W60-11c,0.5,Florida,BNP,Biscayne,continuous,11:54,12:09,15,58,75,70,moderate,1000,2000
+194,2588,2015-03-18_BISC-W60-11c,2015-03-18,Spring 2015,15,Amy and BZ,BISC-W60-11c,0.5,Florida,BNP,Biscayne,continuous,12:10,12:27,17,58,75,70,moderate,1000,2000
+195,2602,2015-03-19_BISC-P10a,2015-03-19,Spring 2015,15,Jack and Carlos,BISC-P10a,0.33,Florida,BNP,Biscayne,patch,14:20,14:49,29,22,76,25,none,816,908
+195,2603,2015-03-19_BISC-P10a,2015-03-19,Spring 2015,15,Jack and Carlos,BISC-P10a,0.33,Florida,BNP,Biscayne,patch,14:49,15:05,16,22,76,25,none,816,908
+195,2604,2015-03-19_BISC-P10a,2015-03-19,Spring 2015,15,Jack and Carlos,BISC-P10a,0.33,Florida,BNP,Biscayne,patch,15:03,15:15,12,22,76,25,none,816,908
+196,2599,2015-03-19_BISC-P11a,2015-03-19,Spring 2015,15,Jack and Allison,BISC-P11a,0.33,Florida,BNP,Biscayne,patch,13:17,13:30,13,17,78,10,none,714,908
+196,2600,2015-03-19_BISC-P11a,2015-03-19,Spring 2015,15,Jack and Allison,BISC-P11a,0.33,Florida,BNP,Biscayne,patch,13:30,13:46,16,17,78,10,none,714,908
+196,2601,2015-03-19_BISC-P11a,2015-03-19,Spring 2015,15,Jack and Allison,BISC-P11a,0.33,Florida,BNP,Biscayne,patch,13:46,13:51,5,17,78,10,none,714,908
+197,2597,2015-03-19_BISC-W30a,2015-03-19,Spring 2015,15,Jack and Carlos,BISC-W30a,0.5,Florida,BNP,Biscayne,continuous,11:55,12:16,21,35,73,45,none,1000,2000
+197,2598,2015-03-19_BISC-W30a,2015-03-19,Spring 2015,15,Jack and Carlos,BISC-W30a,0.5,Florida,BNP,Biscayne,continuous,12:17,12:33,16,35,73,45,none,1000,2000
+198,2595,2015-03-19_BISC-W40-b,2015-03-19,Spring 2015,15,Jack and Allison,BISC-W40-b,0.5,Florida,BNP,Biscayne,continuous,10:14,10:46,32,82,76,40,none,1000,2000
+198,2596,2015-03-19_BISC-W40-b,2015-03-19,Spring 2015,15,Jack and Allison,BISC-W40-b,0.5,Florida,BNP,Biscayne,continuous,10:49,11:10,19,44,73,35,none,1000,2000
+199,2609,2015-03-20_BISC-P7a,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-P7a,0.33,Florida,BNP,Biscayne,patch,13:52,14:02,10,8,79,15,moderate,840,962
+199,2610,2015-03-20_BISC-P7a,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-P7a,0.33,Florida,BNP,Biscayne,patch,14:03,14:15,12,8,79,15,moderate,840,962
+199,2611,2015-03-20_BISC-P7a,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-P7a,0.33,Florida,BNP,Biscayne,patch,14:16,14:19,3,8,79,15,moderate,840,962
+200,2612,2015-03-20_BISC-P9a,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-P9a,0.33,Florida,BNP,Biscayne,patch,14:59,15:16,17,19,75,20,none,903,1384
+200,2613,2015-03-20_BISC-P9a,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-P9a,0.33,Florida,BNP,Biscayne,patch,15:17,15:28,11,19,75,20,none,903,1384
+200,2614,2015-03-20_BISC-P9a,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-P9a,0.33,Florida,BNP,Biscayne,patch,15:28,15:36,8,19,75,20,none,903,1384
+201,2607,2015-03-20_BISC-W60-2b,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-W60-2b,0.5,Florida,BNP,Biscayne,continuous,12:16,12:38,22,70,76,60,moderate,1000,2000
+201,2608,2015-03-20_BISC-W60-2b,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-W60-2b,0.5,Florida,BNP,Biscayne,continuous,12:39,12:57,18,50,75,60,moderate,1000,2000
+202,2605,2015-03-20_BISC-W60-6d,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-W60-6d,0.5,Florida,BNP,Biscayne,continuous,10:10,10:25,15,62,75,50,moderate,1000,2000
+202,2606,2015-03-20_BISC-W60-6d,2015-03-20,Spring 2015,15,Kristen and Anna,BISC-W60-6d,0.5,Florida,BNP,Biscayne,continuous,10:26,10:50,24,55,75,50,moderate,1000,2000
+203,2621,2015-03-22_FKSP1,2015-03-22,Spring 2015,15,Allison and Carlos,FKSP1,0.33,Florida,FKNMS,Matecumbe Key,patch,17:28,,,14,,15,none,216,255
+203,2622,2015-03-22_FKSP1,2015-03-22,Spring 2015,15,Allison and Carlos,FKSP1,0.33,Florida,FKNMS,Matecumbe Key,patch,,,,14,,15,none,216,255
+203,2623,2015-03-22_FKSP1,2015-03-22,Spring 2015,15,Allison and Carlos,FKSP1,0.33,Florida,FKNMS,Matecumbe Key,patch,,17:48,,14,,15,none,216,255
+204,2615,2015-03-22_Ten 2A,2015-03-22,Spring 2015,15,Allison and Carlos,Ten 2A,0.5,Florida,FKNMS,Tennessee Reef,continuous,11:20,11:46,26,39,75,80,none,1000,2000
+204,2616,2015-03-22_Ten 2A,2015-03-22,Spring 2015,15,Allison and Carlos,Ten 2A,0.5,Florida,FKNMS,Tennessee Reef,continuous,11:48,12:15,27,39,75,80,none,1000,2000
+205,2617,2015-03-22_Ten 3A,2015-03-22,Spring 2015,15,Allison and Ed,Ten 3A,0.5,Florida,FKNMS,Tennessee Reef,continuous,12:54,13:24,30,30,75,100,none,1000,2000
+205,2618,2015-03-22_Ten 3A,2015-03-22,Spring 2015,15,Allison and Ed,Ten 3A,0.5,Florida,FKNMS,Tennessee Reef,continuous,13:25,13:44,19,32,75,100,none,1000,2000
+206,2619,2015-03-22_Ten 5A,2015-03-22,Spring 2015,15,Ed and Carlos,Ten 5A,0.5,Florida,FKNMS,Tennessee Reef,continuous,15:24,15:42,18,30,75,60,none,1000,2000
+206,2620,2015-03-22_Ten 5A,2015-03-22,Spring 2015,15,Ed and Carlos,Ten 5A,0.5,Florida,FKNMS,Tennessee Reef,continuous,15:45,16:00,15,30,75,60,none,1000,2000
+207,2628,2015-03-23_Conch 3A,2015-03-23,Spring 2015,15,Anna and BZ,Conch 3A,0.5,Florida,FKNMS,Conch Reef,continuous,13:46,14:06,20,47,73,90,moderate,1000,2000
+207,2629,2015-03-23_Conch 3A,2015-03-23,Spring 2015,15,Anna and BZ,Conch 3A,0.5,Florida,FKNMS,Conch Reef,continuous,14:07,14:27,20,48,73,90,moderate,1000,2000
+208,2626,2015-03-23_Conch 4B,2015-03-23,Spring 2015,15,Anna and BZ,Conch 4B,0.5,Florida,FKNMS,Conch Reef,continuous,11:47,12:01,14,46,73,100,moderate,1000,2000
+208,2627,2015-03-23_Conch 4B,2015-03-23,Spring 2015,15,Anna and BZ,Conch 4B,0.5,Florida,FKNMS,Conch Reef,continuous,12:03,12:22,19,42,73,100,moderate,1000,2000
+209,2624,2015-03-23_Conch 6A,2015-03-23,Spring 2015,15,Anna and BZ,Conch 6A,0.5,Florida,FKNMS,Conch Reef,continuous,9:56,10:15,19,43,76,100,moderate,1000,2000
+209,2625,2015-03-23_Conch 6A,2015-03-23,Spring 2015,15,Anna and BZ,Conch 6A,0.5,Florida,FKNMS,Conch Reef,continuous,10:16,10:41,25,44,75,100,moderate,1000,2000
+210,2630,2015-03-23_KL-P2,2015-03-23,Spring 2015,15,Anna and BZ,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,15:37,15:41,4,16,78,15,moderate,85.5,66
+210,2631,2015-03-23_KL-P2,2015-03-23,Spring 2015,15,Anna and BZ,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,15:41,16:00,19,16,78,15,moderate,85.5,66
+210,2632,2015-03-23_KL-P2,2015-03-23,Spring 2015,15,Anna and BZ,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,16:01,16:08,7,15,78,15,moderate,85.5,66
+211,2646,2015-03-24_DANGER 88,2015-03-24,Spring 2015,15,Jack and Allison,DANGER 88,0.33,Florida,FKNMS,Key Largo,patch,17:22,17:37,15,10,78,40,none,94.5,64
+211,2647,2015-03-24_DANGER 88,2015-03-24,Spring 2015,15,Jack and Allison,DANGER 88,0.33,Florida,FKNMS,Key Largo,patch,17:37,17:45,8,10,78,40,none,94.5,64
+211,2648,2015-03-24_DANGER 88,2015-03-24,Spring 2015,15,Jack and Allison,DANGER 88,0.33,Florida,FKNMS,Key Largo,patch,17:45,18:02,17,10,78,40,none,94.5,64
+212,2643,2015-03-24_KL-P11,2015-03-24,Spring 2015,15,Jack and Carlos,KL-P11,0.33,Florida,FKNMS,Key Largo,patch,16:18,16:30,12,10,78,10,none,399,284
+212,2644,2015-03-24_KL-P11,2015-03-24,Spring 2015,15,Jack and Carlos,KL-P11,0.33,Florida,FKNMS,Key Largo,patch,16:30,16:39,9,10,78,10,none,399,284
+212,2645,2015-03-24_KL-P11,2015-03-24,Spring 2015,15,Jack and Carlos,KL-P11,0.33,Florida,FKNMS,Key Largo,patch,16:39,16:55,16,10,78,10,none,399,284
+213,2640,2015-03-24_KL-P13,2015-03-24,Spring 2015,15,Jack and Allison,KL-P13,0.33,Florida,FKNMS,Key Largo,patch,14:58,15:12,14,14,78,15,moderate,627,380
+213,2641,2015-03-24_KL-P13,2015-03-24,Spring 2015,15,Jack and Allison,KL-P13,0.33,Florida,FKNMS,Key Largo,patch,15:12,15:22,10,14,78,15,moderate,627,380
+213,2642,2015-03-24_KL-P13,2015-03-24,Spring 2015,15,Jack and Allison,KL-P13,0.33,Florida,FKNMS,Key Largo,patch,15:22,15:35,13,14,78,15,moderate,627,380
+214,2637,2015-03-24_KL-P14,2015-03-24,Spring 2015,15,Jack and Carlos,KL-P14,0.33,Florida,FKNMS,Key Largo,patch,13:43,13:53,10,17,78,15,none,272,201
+214,2638,2015-03-24_KL-P14,2015-03-24,Spring 2015,15,Jack and Carlos,KL-P14,0.33,Florida,FKNMS,Key Largo,patch,13:53,14:00,7,17,78,15,none,272,201
+214,2639,2015-03-24_KL-P14,2015-03-24,Spring 2015,15,Jack and Carlos,KL-P14,0.33,Florida,FKNMS,Key Largo,patch,14:00,14:06,6,17,78,15,none,272,201
+215,2633,2015-03-24_KL-W12,2015-03-24,Spring 2015,15,Jack and Allison,KL-W12,0.5,Florida,FKNMS,Key Largo,continuous,10:00,10:25,25,61,74,40,moderate,1000,2000
+215,2634,2015-03-24_KL-W12,2015-03-24,Spring 2015,15,Jack and Allison,KL-W12,0.5,Florida,FKNMS,Key Largo,continuous,10:26,10:33,7,54,74,40,moderate,1000,2000
+216,2635,2015-03-24_KL-W13,2015-03-24,Spring 2015,15,Jack and Allison,KL-W13,0.5,Florida,FKNMS,Key Largo,continuous,12:01,12:20,19,56,73,35,none,1000,2000
+216,2636,2015-03-24_KL-W13,2015-03-24,Spring 2015,15,Jack and Allison,KL-W13,0.5,Florida,FKNMS,Key Largo,continuous,12:22,12:43,21,49,75,45,none,1000,2000
+217,2653,2015-03-25_KL-P5,2015-03-25,Spring 2015,15,Amy and Anna,KL-P5,0.33,Florida,FKNMS,Key Largo,patch,13:07,13:30,23,26,79,30,none,935,907
+217,2654,2015-03-25_KL-P5,2015-03-25,Spring 2015,15,Amy and Anna,KL-P5,0.33,Florida,FKNMS,Key Largo,patch,13:31,13:44,13,24,79,30,none,935,907
+217,2655,2015-03-25_KL-P5,2015-03-25,Spring 2015,15,Amy and Anna,KL-P5,0.33,Florida,FKNMS,Key Largo,patch,13:45,14:05,20,24,79,30,none,935,907
+218,2656,2015-03-25_KL-P6,2015-03-25,Spring 2015,15,Amy and Anna,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,14:33,14:37,4,20,82,40,none,133,153
+218,2657,2015-03-25_KL-P6,2015-03-25,Spring 2015,15,Amy and Anna,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,14:38,14:49,11,20,82,40,none,133,153
+218,2658,2015-03-25_KL-P6,2015-03-25,Spring 2015,15,Amy and Anna,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,14:50,14:56,6,20,82,40,none,133,153
+219,2659,2015-03-25_KL-P7,2015-03-25,Spring 2015,15,Amy and Anna,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,15:29,15:48,19,18,82,40,none,535.5,346
+219,2660,2015-03-25_KL-P7,2015-03-25,Spring 2015,15,Steph and Anna,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,15:48,15:55,7,15,77,40,none,535.5,346
+219,2661,2015-03-25_KL-P7,2015-03-25,Spring 2015,15,Steph and Anna,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,15:55,16:15,20,15,77,40,none,535.5,346
+220,2651,2015-03-25_KL-W11,2015-03-25,Spring 2015,15,Amy and Anna,KL-W11,0.5,Florida,FKNMS,Key Largo,continuous,11:28,11:44,16,48,77,70,none,1000,2000
+220,2652,2015-03-25_KL-W11,2015-03-25,Spring 2015,15,Amy and Anna,KL-W11,0.5,Florida,FKNMS,Key Largo,continuous,11:46,12:06,20,40,75,70,none,1000,2000
+221,2649,2015-03-25_KL-W8,2015-03-25,Spring 2015,15,Amy and Anna,KL-W8,0.5,Florida,FKNMS,Key Largo,continuous,9:20,9:36,16,65,78,80,moderate,1000,2000
+221,2650,2015-03-25_KL-W8,2015-03-25,Spring 2015,15,Amy and Anna,KL-W8,0.5,Florida,FKNMS,Key Largo,continuous,9:36,9:54,18,65,77,80,moderate,1000,2000
+222,2662,2015-03-26_Benwood Ledge,2015-03-26,Spring 2015,15,Jack and BZ,Benwood Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:34,9:51,17,57,77,60,moderate,1000,2000
+222,2663,2015-03-26_Benwood Ledge,2015-03-26,Spring 2015,15,Jack and BZ,Benwood Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:52,10:10,18,43,77,60,moderate,1000,2000
+223,2664,2015-03-26_Dixie Ledge,2015-03-26,Spring 2015,15,Jack and BZ,Dixie Ledge,0.5,Florida,FKNMS,Key Largo,continuous,11:47,12:09,22,74,76,40,heavy,1000,2000
+223,2665,2015-03-26_Dixie Ledge,2015-03-26,Spring 2015,15,Jack and BZ,Dixie Ledge,0.5,Florida,FKNMS,Key Largo,continuous,12:11,12:30,19,74,77,40,heavy,1000,2000
+224,2669,2015-03-26_KL-30,2015-03-26,Spring 2015,15,Jack and BZ,KL-30,0.33,Florida,FKNMS,Key Largo,patch,15:15,15:27,12,16,80,20,none,1040,803
+224,2670,2015-03-26_KL-30,2015-03-26,Spring 2015,15,Jack and BZ,KL-30,0.33,Florida,FKNMS,Key Largo,patch,15:27,15:57,30,16,80,20,none,1040,803
+224,2671,2015-03-26_KL-30,2015-03-26,Spring 2015,15,Jack and BZ,KL-30,0.33,Florida,FKNMS,Key Largo,patch,15:45,16:06,21,16,80,20,none,1040,803
+225,2672,2015-03-26_KL-P4,2015-03-26,Spring 2015,15,Jack and BZ,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,16:55,17:03,8,17,75,15,moderate,192,201
+225,2673,2015-03-26_KL-P4,2015-03-26,Spring 2015,15,Jack and BZ,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,17:03,17:14,11,17,75,15,moderate,192,201
+225,2674,2015-03-26_KL-P4,2015-03-26,Spring 2015,15,Jack and BZ,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,17:14,17:17,3,17,75,15,moderate,192,201
+226,2666,2015-03-26_KL-P8,2015-03-26,Spring 2015,15,Jack and BZ,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,13:29,13:55,26,16,75,20,moderate,1330,1134
+226,2667,2015-03-26_KL-P8,2015-03-26,Spring 2015,15,Jack and BZ,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,13:55,14:15,20,16,75,20,moderate,1330,1134
+226,2668,2015-03-26_KL-P8,2015-03-26,Spring 2015,15,Jack and BZ,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,14:15,14:26,11,16,75,20,moderate,1330,1134
+227,2846,2015-10-22_Benwood Ledge,2015-10-22,Fall 2015,18,BZ and Katie,Benwood Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:34,9:51,17,66,80,30,moderate,1000,2000
+227,2847,2015-10-22_Benwood Ledge,2015-10-22,Fall 2015,18,BZ and Katie,Benwood Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:52,10:03,11,45,80,30,moderate,1000,2000
+228,2848,2015-10-22_KL-W2,2015-10-22,Fall 2015,18,BZ and Katie,KL-W2,0.5,Florida,FKNMS,Key Largo,continuous,11:19,11:33,14,66,79,9,moderate,1000,2000
+228,2849,2015-10-22_KL-W2,2015-10-22,Fall 2015,18,BZ and Katie,KL-W2,0.5,Florida,FKNMS,Key Largo,continuous,11:52,12:07,15,55,79,9,moderate,1000,2000
+229,2852,2015-10-23_Dixie Ledge,2015-10-23,Fall 2015,18,Emily and Becca,Dixie Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:29,9:44,15,74,81,25,none,1000,2000
+229,2853,2015-10-23_Dixie Ledge,2015-10-23,Fall 2015,18,Emily and Becca,Dixie Ledge,0.5,Florida,FKNMS,Key Largo,continuous,9:45,9:57,12,74,81,25,none,1000,2000
+230,2854,2015-10-23_KL-W7,2015-10-23,Fall 2015,18,Emily and Becca,KL-W7,0.5,Florida,FKNMS,Key Largo,continuous,11:13,11:28,15,53,81,25,none,1000,2000
+230,2855,2015-10-23_KL-W7,2015-10-23,Fall 2015,18,Emily and Becca,KL-W7,0.5,Florida,FKNMS,Key Largo,continuous,11:29,11:43,14,50,81,25,none,1000,2000
+231,2850,2015-10-23_KL-W8,2015-10-23,Fall 2015,18,Becca and Ed,KL-W8,0.5,Florida,FKNMS,Key Largo,continuous,14:15,14:33,18,56,83,30,moderate,1000,2000
+231,2851,2015-10-23_KL-W8,2015-10-23,Fall 2015,18,Becca and Ed,KL-W8,0.5,Florida,FKNMS,Key Largo,continuous,14:34,14:51,17,52,82,30,moderate,1000,2000
+232,2862,2015-10-24_BISC-W12,2015-10-24,Fall 2015,18,BZ and Becca,BISC-W12,0.5,Florida,BNP,Biscayne,continuous,16:20,16:37,17,60,81,,none,1000,2000
+232,2863,2015-10-24_BISC-W12,2015-10-24,Fall 2015,18,BZ and Becca,BISC-W12,0.5,Florida,BNP,Biscayne,continuous,16:38,16:57,19,57,81,,none,1000,2000
+233,2856,2015-10-24_KL-W11,2015-10-24,Fall 2015,18,BZ and Ed,KL-W11,0.5,Florida,FKNMS,Key Largo,continuous,9:45,9:57,12,35,81,35,none,1000,2000
+233,2857,2015-10-24_KL-W11,2015-10-24,Fall 2015,18,BZ and Ed,KL-W11,0.5,Florida,FKNMS,Key Largo,continuous,9:58,10:09,11,46,81,40,none,1000,2000
+234,2858,2015-10-24_KL-W12,2015-10-24,Fall 2015,18,BZ and Ed,KL-W12,0.5,Florida,FKNMS,Key Largo,continuous,11:16,11:31,15,61,81,40,none,1000,2000
+234,2859,2015-10-24_KL-W12,2015-10-24,Fall 2015,18,BZ and Ed,KL-W12,0.5,Florida,FKNMS,Key Largo,continuous,11:32,11:43,11,60,81,35,none,1000,2000
+235,2860,2015-10-24_KL-W13,2015-10-24,Fall 2015,18,BZ and Becca,KL-W13,0.5,Florida,FKNMS,Key Largo,continuous,14:37,14:55,18,50,81,30,none,1000,2000
+235,2861,2015-10-24_KL-W13,2015-10-24,Fall 2015,18,BZ and Becca,KL-W13,0.5,Florida,FKNMS,Key Largo,continuous,15:01,15:14,13,47,81,30,none,1000,2000
+236,2866,2015-10-25_Conch 3A,2015-10-25,Fall 2015,18,Olivia and Andy,Conch 3A,0.5,Florida,FKNMS,Conch Reef,continuous,16:10,16:28,18,43,80,30,moderate,1000,2000
+236,2867,2015-10-25_Conch 3A,2015-10-25,Fall 2015,18,Olivia and Andy,Conch 3A,0.5,Florida,FKNMS,Conch Reef,continuous,16:29,16:43,14,43,80,30,moderate,1000,2000
+237,2864,2015-10-25_Conch 6A,2015-10-25,Fall 2015,18,Olivia and Andy,Conch 6A,0.5,Florida,FKNMS,Conch Reef,continuous,14:20,14:40,20,45,84,30,moderate,1000,2000
+237,2865,2015-10-25_Conch 6A,2015-10-25,Fall 2015,18,Olivia and Andy,Conch 6A,0.5,Florida,FKNMS,Conch Reef,continuous,14:45,15:15,30,45,84,30,moderate,1000,2000
+238,2872,2015-10-26_BISC-W30a,2015-10-26,Fall 2015,18,Olivia and Ashtyn,BISC-W30a,0.5,Florida,BNP,Biscayne,continuous,13:58,14:09,11,30,79,20,moderate,1000,2000
+238,2873,2015-10-26_BISC-W30a,2015-10-26,Fall 2015,18,Olivia and Ashtyn,BISC-W30a,0.5,Florida,BNP,Biscayne,continuous,14:12,14:25,13,32,81,20,moderate,1000,2000
+240,2868,2015-10-26_BISC-W60-6d,2015-10-26,Fall 2015,18,Olivia and Ashtyn,BISC-W60-6d,0.5,Florida,BNP,Biscayne,continuous,10:54,11:09,15,60,82,30,moderate,1000,2000
+240,2869,2015-10-26_BISC-W60-6d,2015-10-26,Fall 2015,18,Olivia and Ashtyn,BISC-W60-6d,0.5,Florida,BNP,Biscayne,continuous,11:10,11:22,12,50,82,30,moderate,1000,2000
+242,2876,2015-10-27_BISC-W13,2015-10-27,Fall 2015,18,Carlos and Katie,BISC-W13,0.5,Florida,BNP,Biscayne,continuous,12:41,13:14,33,53,81,35,none,1000,2000
+242,2877,2015-10-27_BISC-W13,2015-10-27,Fall 2015,18,Carlos and Katie,BISC-W13,0.5,Florida,BNP,Biscayne,continuous,13:14,13:26,12,56,81,35,none,1000,2000
+243,2878,2015-10-27_BISC-W60-11c,2015-10-27,Fall 2015,18,Carlos and Katie,BISC-W60-11c,0.5,Florida,BNP,Biscayne,continuous,14:47,15:08,21,46,80,25,moderate,1000,2000
+243,2879,2015-10-27_BISC-W60-11c,2015-10-27,Fall 2015,18,Carlos and Katie,BISC-W60-11c,0.5,Florida,BNP,Biscayne,continuous,15:08,15:25,17,44,80,25,moderate,1000,2000
+244,2874,2015-10-27_BISC-W60-4b,2015-10-27,Fall 2015,18,Carlos and Katie,BISC-W60-4b,0.5,Florida,BNP,Biscayne,continuous,10:45,11:03,18,57,80,40,moderate,1000,2000
+244,2875,2015-10-27_BISC-W60-4b,2015-10-27,Fall 2015,18,Carlos and Katie,BISC-W60-4b,0.5,Florida,BNP,Biscayne,continuous,11:04,11:22,18,54,80,40,moderate,1000,2000
+245,2880,2015-10-28_Conch 4B,2015-10-28,Fall 2015,18,BZ and Becca,Conch 4B,0.5,Florida,FKNMS,Conch Reef,continuous,9:59,10:09,10,45,81,35,moderate,1000,2000
+245,2881,2015-10-28_Conch 4B,2015-10-28,Fall 2015,18,BZ and Becca,Conch 4B,0.5,Florida,FKNMS,Conch Reef,continuous,10:11,10:22,11,44,81,35,moderate,1000,2000
+246,2894,2015-10-30_DANGER 88,2015-10-30,Fall 2015,18,Ed and Olivia,DANGER 88,0.5,Florida,FKNMS,Key Largo,patch,15:16,15:18,2,12,81,12,none,76.5,64
+246,2895,2015-10-30_DANGER 88,2015-10-30,Fall 2015,18,Ed and Olivia,DANGER 88,0.5,Florida,FKNMS,Key Largo,patch,15:18,15:28,10,12,81,12,none,90,64
+247,2882,2015-10-30_KL-P2,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,9:32,9:36,4,19,81,10,none,108,66
+247,2883,2015-10-30_KL-P2,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,9:36,9:40,4,19,81,10,none,108,66
+247,2884,2015-10-30_KL-P2,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P2,0.33,Florida,FKNMS,Key Largo,patch,9:40,9:44,4,19,81,10,none,108,66
+248,2885,2015-10-30_KL-P4,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,10:33,10:40,7,16,81,10,none,192,201
+248,2886,2015-10-30_KL-P4,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,10:40,10:47,7,18,81,10,none,192,201
+248,2887,2015-10-30_KL-P4,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P4,0.33,Florida,FKNMS,Key Largo,patch,10:47,10:52,5,20,81,10,none,192,201
+249,2888,2015-10-30_KL-P5,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P5,0.33,Florida,FKNMS,Key Largo,patch,11:33,11:54,21,30,81,10,none,850,907
+249,2889,2015-10-30_KL-P5,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P5,0.33,Florida,FKNMS,Key Largo,patch,11:54,12:08,14,30,81,10,none,850,907
+249,2890,2015-10-30_KL-P5,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P5,0.33,Florida,FKNMS,Key Largo,patch,12:08,12:22,14,30,81,10,none,850,907
+250,2891,2015-10-30_KL-P6,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,13:00,13:04,4,26,81,10,none,154,153
+250,2892,2015-10-30_KL-P6,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,13:04,13:09,5,26,81,10,none,154,153
+250,2893,2015-10-30_KL-P6,2015-10-30,Fall 2015,18,Ed and Olivia,KL-P6,0.33,Florida,FKNMS,Key Largo,patch,13:09,13:14,5,26,81,10,none,154,153
+251,2896,2015-10-31_KL-P7,2015-10-31,Fall 2015,18,Carlos and Becca,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,13:50,14:03,13,18,81,10,none,472.5,346
+251,2897,2015-10-31_KL-P7,2015-10-31,Fall 2015,18,Carlos and Becca,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,14:03,14:19,16,18,81,10,none,472.5,346
+251,2898,2015-10-31_KL-P7,2015-10-31,Fall 2015,18,Carlos and Becca,KL-P7,0.33,Florida,FKNMS,Key Largo,patch,14:19,14:30,11,18,81,10,none,472.5,346
+252,2899,2015-10-31_KL-P8,2015-10-31,Fall 2015,18,Carlos and Becca,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,14:54,15:09,15,12,80,8,none,1235,1134
+252,2900,2015-10-31_KL-P8,2015-10-31,Fall 2015,18,Carlos and Becca,KL-P8,0.33,Florida,FKNMS,Key Largo,patch,15:09,15:24,15,12,80,8,none,1235,1134
+253,2902,2015-10-31_KL-30,2015-10-31,Fall 2015,18,Carlos and Becca,KL-30,0.33,Florida,FKNMS,Key Largo,patch,16:11,16:24,13,12,82,10,none,1248,803
+253,2903,2015-10-31_KL-30,2015-10-31,Fall 2015,18,Carlos and Becca,KL-30,0.33,Florida,FKNMS,Key Largo,patch,16:24,16:37,13,12,82,10,none,1248,803
+253,2904,2015-10-31_KL-30,2015-10-31,Fall 2015,18,Carlos and Becca,KL-30,0.33,Florida,FKNMS,Key Largo,patch,16:37,16:50,13,12,82,10,none,1248,803
