@@ -12,12 +12,13 @@
 ##########
 ##########
 
+
 # Set-Up =======================================================================
 
 # packages
-library(here)
 library(plyr)
 library(tidyverse)
+library(here)
 
 # data
 fish_data <- read_csv(here("./dataframes/fish_dataframe.csv"))
@@ -28,7 +29,7 @@ traits <- read_csv(here("./clean_data/fish_traits.csv"))
 vert_relief <- read_csv(here("./clean_data/vertical_relief.csv"))
 
 
-#### Joining Survey Metadata ===================================================
+# Joining Survey Metadata ======================================================
 
 # The following joins metadata associated with each survey type (SVC, transect 
 # and roving) to the full fish dataframe. 
@@ -118,6 +119,7 @@ pred_meta <- join(pred_depth, pred_area, by = NULL, type = "full",
 fish_meta <- join(SVCprey_full, pred_meta, by = NULL, type = "left", 
                   match = "first") 
 
+
 # Joining Vertical Relief Data =================================================
 
 # The following section aggregates vertical relief measures to a mean value per
@@ -133,6 +135,7 @@ vert_relief <- aggregate(relief_cm~site, vert_relief, mean)
 # join vertical relief measure to each site
 fish_meta <- join(fish_meta, vert_relief, by = NULL, type = "left", 
                   match = "first") 
+
 
 # Joining Species' Trait Data ==================================================
 
@@ -151,73 +154,140 @@ fish_traits <- fish_traits %>% rename(colouration = colouration_cat1)
 fish_traits <- fish_traits %>% rename(species = common_name)
 
 # join fish trait data to meta and fish dataframe
-full_dataframe <- join(fish_meta, fish_traits, by = NULL, type = "full", match = "all")
+full_dataframe <- join(fish_meta, fish_traits, by = NULL, type = "full", 
+                       match = "all")
 
 # remove NA values
 full_dataframe <- na.omit(full_dataframe) 
 
 
-#### Calculate Density ####
+# Density Calculation ==========================================================
 
-# Density Calculations
-full_dataframe$SVC_density <- full_dataframe$SVC_abundance/full_dataframe$SVC_area # SVC density calculation
-full_dataframe$prey_density <- full_dataframe$prey_abundance/full_dataframe$prey_area # prey density calculation
-full_dataframe$pred_density <- full_dataframe$pred_abundance/full_dataframe$pred_area # predator density calcualtion 
+# The following calculates fish densities for each of the three survey types 
+# (SVC, transect, and roving) for each single observation. It then calculates
+# the density differences between each of the survey types for each observation.
 
-# Density Differences
-full_dataframe$SVC_prey_difference <- full_dataframe$SVC_density - full_dataframe$prey_density
-full_dataframe$SVC_pred_difference <- full_dataframe$SVC_density - full_dataframe$pred_density 
-full_dataframe$prey_pred_difference <- full_dataframe$prey_density - full_dataframe$pred_density 
+# SVC density calculation
+full_dataframe$SVC_density <- 
+  full_dataframe$SVC_abundance/full_dataframe$SVC_area
+
+# transect survey density calculation
+full_dataframe$prey_density <- 
+  full_dataframe$prey_abundance/full_dataframe$prey_area 
+
+# roving survey density calculation
+full_dataframe$pred_density <- 
+  full_dataframe$pred_abundance/full_dataframe$pred_area 
+
+# SVC - transect density difference calculation
+full_dataframe$SVC_prey_difference <- 
+  full_dataframe$SVC_density - full_dataframe$prey_density
+
+# SVC - roving density difference calculation
+full_dataframe$SVC_pred_difference <- 
+  full_dataframe$SVC_density - full_dataframe$pred_density 
+
+# transect - roving density difference calculation
+full_dataframe$prey_pred_difference <- 
+  full_dataframe$prey_density - full_dataframe$pred_density 
 
 
-#### Dataframe Edits ####
+# Dataframe Edits ==============================================================
 
-# Re-Order Columns
-full_dataframe <- full_dataframe[,c(2,1,9,12:13,20,21:23,3,4,24:30,8,11,10,5,31,14:16,6,32,17:19,7,33,34:36)]
+# The following provides some additional edits to the full dataframe to produce
+# a final version.
+
+# re-order columns
+full_dataframe <- full_dataframe[,c(2,1,9,12:13,20,21:23,3,4,24:30,8,11,10,5,31,
+                                    14:16,6,32,17:19,7,33,34:36)]
+
+# re-name columns
 full_dataframe <- full_dataframe %>% rename(habitat = SVC_habitat) 
-
-# Re-Name Columns
 full_dataframe <- full_dataframe %>% rename(family = Family)
 full_dataframe <- full_dataframe %>% rename(binomial = Binomial)
 full_dataframe <- full_dataframe %>% rename(species_order = Order)
 
 
-#### SVC vs. Prey Dataframe ####
-SVCprey <- full_dataframe[,c(1:28,34)] # select SVC and prey columns
+# SVC vs. Transect Survey Dataframe ============================================
+
+# The following creates a dataframe specific to observations within SVC and 
+# transect surveys.
+
+# select SVC and transect columns
+SVCprey <- full_dataframe[,c(1:28,34)] 
+
+# calculate total density for SVC and transect surveys
 SVCprey$total_density <- SVCprey$SVC_density+SVCprey$prey_density
-SVCprey_data <- SVCprey[SVCprey$total_density !=0,] # removing rows where SVC and prey densities = 0 (indicates that no species of that size group were observed on said session in either survey)
+
+# remove rows where total density = 0
+SVCprey_data <- SVCprey[SVCprey$total_density !=0,] 
 
 
-#### SVC vs. Predator Dataframe ####
+# SVC vs. Roving Survey Dataframe ==============================================
 
-SVCpred <- full_dataframe[,c(1:23,29:33,35)] # select SVC and predator columns
-SVCpred <- filter(SVCpred, predator_presence == 1) # filter for species recorded on predator surveys
+# The following creates a dataframe specific to observations within SVC and 
+# roving surveys.
+
+# select SVC and roving columns
+SVCpred <- full_dataframe[,c(1:23,29:33,35)] 
+
+# filter for species recorded on predator surveys
+SVCpred <- filter(SVCpred, predator_presence == 1) 
+
+# calculate total density for SVC and roving surveys
 SVCpred$total_density <- SVCpred$SVC_density+SVCpred$pred_density
-SVCpred_data <- SVCpred[SVCpred$total_density !=0,] # removing rows where SVC and predator densities = 0 (indicates that no species of that size group were observed on said session in either survey)
+
+# remove rows where total density = 0
+SVCpred_data <- SVCpred[SVCpred$total_density !=0,]
 
 
-#### Density Log Transformation ####
+# Density Log Transformation ===================================================
 
-# density differences did not meet normality assumptions --> a log transformation of raw densities before taking the difference improved normality
+# Density differences between the survey types did not meet normality 
+# assumptions required for analyses, so the following conducts a log 
+# transformation of raw densities before taking the difference to improved 
+# normality.
 
-# SVC vs. Prey:
+# calculate log SVC density in SVC vs. transect dataframe
 log_SVCdensity <- log(SVCprey_data$SVC_density + 0.001) 
+
+# calculate log transect density
 log_preydensity <- log(SVCprey_data$prey_density + 0.001) 
+
+# histogram of SVC vs. transect log density differences 
 hist(log_SVCdensity-log_preydensity)
+
+# calculate SVC vs. transect log density difference
 SVCprey_data$log_difference <- log_SVCdensity-log_preydensity
 
-# SVC vs. Predator:
+# calculate log SVC density in SVC vs. roving dataframe
 log_SVCdensity2 <- log(SVCpred_data$SVC_density + 0.001)
+
+# calculate log roving density 
 log_preddensity <- log(SVCpred_data$pred_density + 0.001)
+
+# histogram of SVC vs. roving log density differences
 hist(log_SVCdensity2-log_preddensity)
+
+# calculate SVC vs. roving log density difference
 SVCpred_data$log_difference <- log_SVCdensity2-log_preddensity
 
 
-#### Average Depth Calculation ####
+# Average Depth Calculation ====================================================
 
-# SVC vs. Prey:
-SVCprey_data$average_depth <- (SVCprey_data$SVC_max_depth + SVCprey_data$prey_depth)/2
+# The following calculates average depth values for each session between the two
+# survey types in each dataframe (SVC vs. transect and SVC vs. roving). 
 
-# SVC vs. Predator:
-SVCpred_data$average_depth <- (SVCpred_data$SVC_max_depth + SVCpred_data$pred_depth)/2
-write.csv(SVCpred_data, "SVCpred_dataframe.csv")
+# SVC vs. transect dataframe average depth calculation
+SVCprey_data$average_depth <- (SVCprey_data$SVC_max_depth + 
+                                 SVCprey_data$prey_depth)/2
+
+# SVC vs. roving dataframe average depth calculation
+SVCpred_data$average_depth <- (SVCpred_data$SVC_max_depth + 
+                                 SVCpred_data$pred_depth)/2
+
+# export SVC vs. transect survey dataframe
+write_csv(SVCprey_data, here("./dataframes/SVCprey_dataframe.csv"))
+
+# export SVC vs. roving survey dataframe
+write_csv(SVCpred_data, here("./dataframes/SVCpred_dataframe.csv"))

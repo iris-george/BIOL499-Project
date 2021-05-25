@@ -125,6 +125,9 @@ c7 <- SVC %>%
 # bind SVC lengths
 SVC_lengths <- combine(list(c2, c3, c4, c5, c6, c7))
 
+# export SVC length data
+write_csv(SVC_lengths, here("./clean_data/SVC_lengths.csv"))
+
 
 # SVC Dataframe ================================================================
 
@@ -156,19 +159,33 @@ SVC_melt <- SVC_melt %>% rename(SVC_abundance = abundance)
 # bin 6 > 30. 
 
 # SVC size bin column
-SVC_melt$size_bin = ifelse(SVC_melt$SVC_tl <= 5, 1, ifelse(SVC_melt$SVC_tl > 5 & SVC_melt$SVC_tl <= 10, 2, ifelse(SVC_melt$SVC_tl > 10 & SVC_melt$SVC_tl <= 15, 3, ifelse(SVC_melt$SVC_tl > 15 & SVC_melt$SVC_tl <= 20, 4, ifelse(SVC_melt$SVC_tl > 20 & SVC_melt$SVC_tl <=30, 5, ifelse(SVC_melt$SVC_tl > 30, 6, NA)))))) 
+SVC_melt$size_bin = ifelse(SVC_melt$SVC_tl <= 5, 1, ifelse(SVC_melt$SVC_tl > 5 
+    & SVC_melt$SVC_tl <= 10, 2, ifelse(SVC_melt$SVC_tl > 10 & 
+    SVC_melt$SVC_tl <= 15, 3, ifelse(SVC_melt$SVC_tl > 15 & 
+    SVC_melt$SVC_tl <= 20, 4, ifelse(SVC_melt$SVC_tl > 20 & 
+    SVC_melt$SVC_tl <=30, 5, ifelse(SVC_melt$SVC_tl > 30, 6, NA)))))) 
 
 # selected session, species, size_bin, and abundance columns from SVC
 SVC_bins <- SVC_melt[,c(1,2,5,6)] 
 
 # transect size bin column
-prey_fish$size_bin = ifelse(prey_fish$prey_tl <= 5, 1, ifelse(prey_fish$prey_tl > 5 & prey_fish$prey_tl <= 10, 2, ifelse(prey_fish$prey_tl > 10 & prey_fish$prey_tl <= 15, 3, ifelse(prey_fish$prey_tl > 15 & prey_fish$prey_tl <= 20, 4, ifelse(prey_fish$prey_tl > 20 & prey_fish$prey_tl <=30, 5, ifelse(prey_fish$prey_tl > 30, 6, NA))))))
+prey_fish$size_bin = ifelse(prey_fish$prey_tl <= 5, 1, 
+   ifelse(prey_fish$prey_tl > 5 & prey_fish$prey_tl <= 10, 2, 
+   ifelse(prey_fish$prey_tl > 10 & prey_fish$prey_tl <= 15, 3, 
+   ifelse(prey_fish$prey_tl > 15 & prey_fish$prey_tl <= 20, 4, 
+   ifelse(prey_fish$prey_tl > 20 & prey_fish$prey_tl <=30, 5, 
+   ifelse(prey_fish$prey_tl > 30, 6, NA))))))
 
 # selecting session, species, and size_bin columns from transect
 prey_bins <- prey_fish[,c(1,3,5)] 
 
 # roving size bin column
-pred_fish$size_bin = ifelse(pred_fish$pred_tl <= 5, 1, ifelse(pred_fish$pred_tl > 5 & pred_fish$pred_tl <= 10, 2, ifelse(pred_fish$pred_tl > 10 & pred_fish$pred_tl <= 15, 3, ifelse(pred_fish$pred_tl > 15 & pred_fish$pred_tl <= 20, 4, ifelse(pred_fish$pred_tl > 20 & pred_fish$pred_tl <=30, 5, ifelse(pred_fish$pred_tl > 30, 6, NA))))))
+pred_fish$size_bin = ifelse(pred_fish$pred_tl <= 5, 1, 
+    ifelse(pred_fish$pred_tl > 5 & pred_fish$pred_tl <= 10, 2, 
+    ifelse(pred_fish$pred_tl > 10 & pred_fish$pred_tl <= 15, 3, 
+    ifelse(pred_fish$pred_tl > 15 & pred_fish$pred_tl <= 20, 4, 
+    ifelse(pred_fish$pred_tl > 20 & pred_fish$pred_tl <=30, 5, 
+    ifelse(pred_fish$pred_tl > 30, 6, NA))))))
 
 # selecting session, species, and size_bin columns from roving
 pred_bins <- pred_fish[,c(1,3,14)] 
@@ -213,5 +230,6 @@ fish_data[is.na(fish_data)] <- 0
 
 # order by session
 fish_data <- fish_data[order(session),]
-write_csv(fish_data, here("./dataframes/fish_dataframe.csv"))
 
+# export fish dataframe
+write_csv(fish_data, here("./dataframes/fish_dataframe.csv"))
