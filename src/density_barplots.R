@@ -71,7 +71,7 @@ pred_species <- pred_species %>% rename(pred_abundance = n)
 prey_area <- prey_meta[,c(1,15)]
 
 # aggregate area by session
-prey_area <- aggregate(.~session, prey_area, mean)
+prey_area <- aggregate(.~session, prey_area, sum)
 
 # join area to fish data
 prey_density <- join(prey_species, prey_area, by = NULL, type = "full", 
@@ -81,7 +81,7 @@ prey_density <- join(prey_species, prey_area, by = NULL, type = "full",
 pred_area <- pred_meta[,c(1,21)]
 
 # aggregate area by session
-pred_area <- aggregate(.~session, pred_area, mean)
+pred_area <- aggregate(.~session, pred_area, sum)
 
 # join area to fish data
 pred_density <- join(pred_species, pred_area, by = NULL, type = "full",
@@ -254,7 +254,7 @@ SVCpred_bar <- SVCpred_bar[c(1:23),]
 SVCprey_barplot <- ggplot(data=SVCprey_family, 
                           aes(x=family, y=avg_density_dif)) +
   geom_bar(stat="identity", fill="blue") +
-  ylim(-0.5, 0.25) +
+  ylim(-0.3, 0.15) +
   theme_classic() + xlab("Family") + 
   ylab(bquote("Mean Density Difference" (individuals/m^2))) +
   theme(axis.title = element_text(size = 20)) +
