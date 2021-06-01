@@ -18,10 +18,16 @@
 library(plyr)
 library(tidyverse)
 library(ggplot2)
+library(doBy)
 library(here)
 
 # data
 lionfish <- read_csv(here("./dataframes/lionfish_anova_data.csv"))
+
+# change survey type names
+lionfish$survey <- ifelse(lionfish$survey == "prey", "transect", 
+                          ifelse(lionfish$survey == "predator", "roving", 
+                          ifelse(lionfish$survey == "SVC", "SVC", NA)))
 
 
 # Lionfish ANOVA ===============================================================
@@ -53,7 +59,7 @@ ggplot(lionfish, aes(x = survey, y = density, fill = survey)) +
   theme(axis.text= element_text(size = 18)) +
   theme(legend.text = element_text(size = 18)) +
   theme(legend.title = element_text(size = 20)) +
-  scale_fill_brewer(palette = "Dark2") 
+  scale_fill_brewer(palette = "YlGnBu") 
 
 
 # Remove High Outliers =========================================================
@@ -72,7 +78,7 @@ summary(lionfish_anova_nooutliers)
 # Tukey test
 TukeyHSD(lionfish_anova_nooutliers)
 
-# Boxplot without outliers
+# boxplot without outliers
 ggplot(lionfish_nooutlier, aes(x = survey, y = density, fill = survey)) +
   geom_boxplot() +
   theme_classic() + xlab("Survey Type") + 
@@ -82,3 +88,45 @@ ggplot(lionfish_nooutlier, aes(x = survey, y = density, fill = survey)) +
   theme(legend.text = element_text(size = 18)) +
   theme(legend.title = element_text(size = 20)) +
   scale_fill_brewer(palette = "Dark2") 
+
+
+# Presence/Absence Exploration =================================================
+
+# The following re-runs the ANOVA on lionfish presence/absence as opposed to 
+# density across the three survey types. 
+
+# create presence/absence column
+lionfish$pres_abs <- ifelse(lionfish$density > 0, 1, 0)
+
+# ANOVA
+lionfish_pres_abs_ANOVA <- aov(pres_abs ~ survey, data = lionfish)
+summary(lionfish_pres_abs_ANOVA)
+
+# Tukey test
+TukeyHSD(lionfish_pres_abs_ANOVA)
+
+# boxplot
+ggplot(lionfish, aes(x = survey, y = pres_abs, fill = survey)) +
+  geom_boxplot() +
+  theme_classic() + xlab("Survey Type") + 
+  ylab(bquote("Density " (lionfish/m^2))) +
+  theme(axis.title = element_text(size = 20)) +
+  theme(axis.text= element_text(size = 18)) +
+  theme(legend.text = element_text(size = 18)) +
+  theme(legend.title = element_text(size = 20)) +
+  scale_fill_brewer(palette = "YlGnBu") 
+
+# make barplot dataframe - aggregate presence/absence into sum
+SVCprey_family <- summaryBy(density_difference~family, data=SVCprey_family, 
+                            FUN=c(mean,sd))
+lionfish_bar <- summaryBy(pres_abs~survey, data = lionfish, FUN = sum)
+
+# barplot
+ggplot(data = lionfish_bar, aes(x = survey, y = pres_abs.sum)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  theme_classic() + xlab("Survey Type") + 
+  ylab(bquote("Number of Sessions with Lionfish Present")) +
+  theme(axis.title = element_text(size = 20)) +
+  theme(axis.text= element_text(size = 14)) +
+  theme(legend.text = element_text(size = 18)) +
+  theme(legend.title = element_text(size = 20)) 
